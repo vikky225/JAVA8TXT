@@ -103,7 +103,7 @@ public class Robots {
                 output = report();
                 break;
             default:
-                throw new RuntimeException("Invalid command");
+                throw new RobotException("Invalid command");
         }
 
         return output;
