@@ -23,8 +23,8 @@ Option-2
 
 Import whole application in IntelliJ or any other tool
 and click on Run than  Edit Configuration for Application as below
-Main: com.toysimulator.Main
-Program Aeguments: src\main\resources\robot.txt
+Main: com.robotprogram.RobotShouldMain
+Program Aeguments: src\main\resources\input.txt
 
 than simply run your application as Run as Java Application from Main class, it should display expected output in console.
 Classification: Public Version: 1.0
