@@ -29,6 +29,15 @@ Program Aeguments: src\main\resources\robot.txt
 than simply run your application as Run as Java Application from Main class, it should display expected output in console.
 Classification: Public Version: 1.0
 
+
+Expected output would be as below
+
+Output: 0:1:NORTH
+Output: 0:0:WEST
+Output: 3:3:NORTH
+
+Process finished with exit code 0
+
 Programming Exercise – Toy Robot
 Description
 The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
