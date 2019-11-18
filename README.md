@@ -15,16 +15,16 @@ Option-1
 - Packaging: `mvn package`, compiled jar in *target/* folder
 
 Than you can run via below command
-java -jar Toy-Explorer-1.0-SNAPSHOT.jar command-data.txt
+java -jar robot-1.0-SNAPSHOT.jar command-data.txt
 
-Note : where command-data.txt is command input file which is placed under resource in our packaged application
+Note : where input.txt is command input file which is placed under resource in our packaged application
 
 Option-2
 
 Import whole application in IntelliJ or any other tool
 and click on Run than  Edit Configuration for Application as below
 Main: com.toysimulator.Main
-Program Aeguments: src\main\resources\command-data.txt
+Program Aeguments: src\main\resources\robot.txt
 
 than simply run your application as Run as Java Application from Main class, it should display expected output in console.
 Classification: Public Version: 1.0
