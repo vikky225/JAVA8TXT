@@ -15,7 +15,7 @@ Option-1
 - Packaging: `mvn package`, compiled jar in *target/* folder
 
 Than you can run via below command
-java -jar robot-1.0-SNAPSHOT.jar command-data.txt
+java -jar robot-1.0-SNAPSHOT.jar input.txt 
 
 Note : where input.txt is command input file which is placed under resource in our packaged application
 
